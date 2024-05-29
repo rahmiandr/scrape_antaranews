@@ -25,6 +25,7 @@ data <- data.frame(
   stringsAsFactors = FALSE
 )
 
+
 # MONGODB
 message('Input Data to MongoDB Atlas')
 atlas_conn <- mongo(
