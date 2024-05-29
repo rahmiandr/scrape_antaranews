@@ -25,3 +25,5 @@ jobs:
       shell: Rscript {0} 
     - name: Scrape Data Antara News
       run: Rscript projekMDS.R
+    - name: Input Data to MongoDB Atlas
+      run: Rscript projekMDS.R
